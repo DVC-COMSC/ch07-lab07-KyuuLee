@@ -8,7 +8,7 @@ print ("The original list: ", numbers)
 #  evenlist = [ numbers.pop(i) for i in range(len(numbers)/2)]
 # evenlist = [ i for i in range(0, len(numbers), 2)]
 evenlist = []
-for i in range(len(numbers)//2):
+for i in range(1, len(numbers)//2+1):
 	 evenlist.append(numbers.pop(i))
 
 # print ('The original list after pop() even index elements\n', numbers )
