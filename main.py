@@ -3,7 +3,7 @@ inputvalues = input('Enter all elements values: ')
 numbers = inputvalues.split() 
 for i in range(len(numbers)):
 	numbers[i] = int(numbers[i]) 
-print ("The original list: ", numbers)
+# print ("The original list: ", numbers)
 
 #  evenlist = [ numbers.pop(i) for i in range(len(numbers)/2)]
 # evenlist = [ i for i in range(0, len(numbers), 2)]
