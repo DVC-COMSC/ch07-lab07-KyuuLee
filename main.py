@@ -13,5 +13,5 @@ for i in range(1, len(numbers)//2+1):
 
 # print ('The original list after pop() even index elements\n', numbers )
 # print ("The new list from the even index elements of original list\n", evenlist)
-print ("The list numbers \n", numbers)
-print ("The list for even index elements\n", evenlist)
+print ("The list numbers: ", numbers)
+print ("The list for even index elements: ", evenlist)
