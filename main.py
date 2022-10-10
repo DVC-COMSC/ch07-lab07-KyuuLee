@@ -15,3 +15,7 @@ for i in range(1, len(numbers)//2+1):
 # print ("The new list from the even index elements of original list\n", evenlist)
 print ("The list numbers: ", numbers)
 print ("The list for even index elements: ", evenlist)
+
+
+
+#. 
